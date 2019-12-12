@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+a = ord('A')
+print(a)
+a=ord('中')
+print(a)
+a=chr(66)
+print(a)
+a=chr(25991)
+print(a)
+print('\u4e2d\u6587')
+x = b'ABC\xe4\xb8\xad\xff'
+print(len(x))
+x= x.decode("utf-8",errors="ignore")
+print(x)
+print('Hello %s' % 'skb')
+print('%2d - %02d' % (3,1))
+r = (72,85,(85-72)/72*100)
+print("小明的成绩从去年的%d分提升到了今年的%d分，提升了%2.1f%%" % r)
